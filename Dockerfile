@@ -14,7 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY scripts/ ./scripts/
 COPY data/processed/ ./data/processed/
 COPY models/ ./models/
-COPY docs/ ./docs/
 COPY *.md ./
 
 ENV PYTHONUNBUFFERED=1
