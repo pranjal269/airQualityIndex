@@ -1,0 +1,5 @@
+location_name,total_records,avg_aqi,min_aqi,max_aqi,latitude,longitude,city
+"Anand Vihar, New Delhi - DPCC",1256,224.32563694267515,17.0,500.0,28.646835,77.316032,Delhi
+"Punjabi Bagh, Delhi - DPCC",1168,212.87157534246575,0.0,500.0,28.674045,77.131023,Delhi
+"R K Puram, Delhi - DPCC",1125,202.512,7.0,500.0,28.563262,77.186937,Delhi
+"Zoo Park, Hyderabad - TSPCB",1128,112.19148936170212,18.0,500.0,17.349694,78.451437,Hyderabad

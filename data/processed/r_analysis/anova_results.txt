@@ -1,0 +1,19 @@
+ANOVA RESULTS
+================================================================================
+
+1. AQI by Location
+------------------
+                Df   Sum Sq Mean Sq F value Pr(>F)    
+location_name    3  9092895 3030965   194.4 <2e-16 ***
+Residuals     4673 72848194   15589                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+2. AQI by Time of Day
+---------------------
+              Df   Sum Sq Mean Sq F value Pr(>F)    
+time_of_day    3  1585631  528544   30.74 <2e-16 ***
+Residuals   4673 80355458   17196                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

@@ -1,0 +1,10 @@
+Data Cleaning Summary
+================================================================================
+Original records: 141,091
+Filtered to 2021-2025: 29,516
+Date range: 2025-04-01 00:30:00+00:00 to 2025-05-28 23:30:00+00:00
+
+Cities: Delhi, Hyderabad
+Parameters: co, no2, o3, pm10, pm25, so2, temperature
+Locations: 4
+Sensors: 28

@@ -1,0 +1,19 @@
+DESCRIPTIVE STATISTICS
+================================================================================
+
+      pm25             pm10            no2              so2        
+ Min.   :  0.00   Min.   :  0.0   Min.   :  0.00   Min.   : 0.000  
+ 1st Qu.: 40.70   1st Qu.: 85.5   1st Qu.: 32.05   1st Qu.: 6.155  
+ Median : 60.00   Median :160.0   Median : 48.30   Median :12.000  
+ Mean   : 67.58   Mean   :176.6   Mean   : 51.85   Mean   :15.372  
+ 3rd Qu.: 84.00   3rd Qu.:233.2   3rd Qu.: 67.00   3rd Qu.:22.600  
+ Max.   :218.00   Max.   :668.0   Max.   :171.00   Max.   :71.700  
+ NA's   :515      NA's   :457     NA's   :422      NA's   :355     
+       co               o3              AQI       
+ Min.   :0.0000   Min.   :  0.00   Min.   :  0.0  
+ 1st Qu.:0.5122   1st Qu.: 11.20   1st Qu.: 94.0  
+ Median :0.8815   Median : 23.00   Median :150.0  
+ Mean   :1.0792   Mean   : 34.08   Mean   :189.2  
+ 3rd Qu.:1.4300   3rd Qu.: 47.10   3rd Qu.:242.0  
+ Max.   :4.3900   Max.   :163.00   Max.   :500.0  
+ NA's   :481      NA's   :528                     

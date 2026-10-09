@@ -1,0 +1,41 @@
+STATISTICAL ANALYSIS SUMMARY
+================================================================================
+
+Analysis Date: 2026-04-15
+Total Records: 4,677
+Date Range: 2025-04-01 00:30:00 to 2025-05-28 23:30:00
+Number of Locations: 4
+
+KEY FINDINGS:
+-------------
+
+1. Overall AQI Statistics:
+   - Mean AQI: 189.2
+   - Median AQI: 150.0
+   - Std Dev: 132.4
+
+2. Location with Highest Mean AQI:
+   - Anand Vihar, New Delhi - DPCC (Mean AQI: 224.3)
+
+3. Most Common AQI Category:
+   - Poor (40.3% of records)
+
+4. Strongest Correlations with AQI:
+   - pm10: 0.586
+   - pm25: 0.538
+   - so2: 0.328
+
+
+OUTPUT FILES GENERATED:
+-----------------------
+  1. descriptive_stats.txt - Summary statistics
+  2. correlation_matrix.png - Correlation heatmap
+  3. location_summary.csv - Location-wise statistics
+  4. aqi_by_location.png - Boxplot by location
+  5. aqi_hourly_pattern.png - Hourly AQI trends
+  6. aqi_weekly_pattern.png - Weekly AQI patterns
+  7. pollutant_distributions.png - Histograms
+  8. anova_results.txt - ANOVA test results
+  9. aqi_time_series.png - Time series plot
+  10. aqi_category_distribution.png - Category breakdown
+  11. analysis_summary.txt - This file

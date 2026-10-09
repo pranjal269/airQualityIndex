@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (exclude large raw data but keep processed data)
+data/raw/openaq_raw_*.csv
+data/raw/intermediate_*.csv
+data/raw/*.json
+data/raw/*.xlsx
+
+# Keep processed data (needed for Ishita)
+# data/processed/*.csv - COMMENTED OUT to allow processed data
+
+# Keep model files (needed for Ishita)
+# models/*.pkl - COMMENTED OUT to allow trained models
+models/*.h5
+models/*.pb
+
+# Power BI
+powerbi/*.pbix
+powerbi/temp/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local system files
+.DS_Store
+
+# Large raw datasets — review before publishing
+data/raw/

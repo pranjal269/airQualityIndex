@@ -1,0 +1,12 @@
+Feature Engineering Summary
+================================================================================
+Total records: 4,677
+Total features: 65
+Date range: 2025-04-01 00:30:00+00:00 to 2025-05-28 23:30:00+00:00
+
+Feature categories:
+  - Original pollutants: 7 (pm25, pm10, no2, so2, co, o3, temperature)
+  - AQI values: 8 (AQI + 6 sub-indices + category + dominant pollutant)
+  - Lag features: 20
+  - Rolling features: 16
+  - Time features: 7
