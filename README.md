@@ -361,24 +361,40 @@ Top Predictive Features:
 
 ================================================================================
 
-Docker Deployment
+## Docker Deployment
 
-Pull from DockerHub
+The project is containerized using Docker. The published image includes the dependencies, processed dataset, trained models, and scripts required to generate AQI predictions.
 
-docker pull ishitasingh16/aqi-prediction:latest
-docker run ishitasingh16/aqi-prediction:latest
+### Pull the published image
 
-Build Locally
+```bash
+docker pull pranjal269/air-quality-index:latest
+```
 
-docker build -t aqi-prediction .
-docker run aqi-prediction
+### Run the prediction pipeline
 
-Docker Configuration
-The Dockerfile includes:
-- Python 3.9 base image
-- All required dependencies
-- R installation and packages
-- Automated script execution
+```bash
+docker run --rm pranjal269/air-quality-index:latest
+```
+
+The container loads the trained Random Forest and XGBoost models, processes the included ML-ready dataset, and generates predictions for four monitoring locations.
+
+### Build the image locally
+
+```bash
+git clone https://github.com/pranjal269/airQualityIndex.git
+cd airQualityIndex
+docker build -t air-quality-index:latest .
+docker run --rm air-quality-index:latest
+```
+
+### Output
+
+The pipeline generates predictions at:
+
+`data/predictions/predictions_all.csv`
+
+**Note:** The container runs the prediction-generation pipeline using the included processed data and trained models. Running the full data-collection, R statistical-analysis, or Power BI workflows may require additional setup.
 
 ================================================================================
 
